@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: #1F85FF;
+}
+
+.contener {
+    width: 70%;
+    height: 80vh;
+    display: grid;
+    margin: 10vh auto;
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+    background-color: #595959;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: Montserrat;
+}
+
+.card:hover {
+    background-color: rgb(3, 221, 249);
+}
+
+
+.card {
+    display: grid;
+    text-align: center;
+    background-color: #1F85FF;
+
+}
+
+.card>img {
+    width: 70px;
+    height: 70px;
+    margin: 20px 33%;
+    grid-template-rows: 1fr;
+}
+
+.card>input {
+    width: 80%;
+    height: 20%;
+    color: white;
+    margin: 40% 10%;
+    border: 2px solid white;
+    background-color: #1F85FF;
+
+
+}
+
+input:hover {
+    background-color: rgb(19, 19, 250);
+}
